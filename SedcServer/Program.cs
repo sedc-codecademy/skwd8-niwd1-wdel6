@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SedcServer.Engine;
+
+using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -8,7 +10,6 @@ namespace SedcServer
     class Program
     {
 
-
         static void Main(string[] args)
         {
             var address = IPAddress.Loopback;
@@ -16,36 +17,27 @@ namespace SedcServer
 
             TcpListener listener = new TcpListener(address, port);
             listener.Start();
-
             Console.WriteLine("Started listening");
 
-            var client = listener.AcceptTcpClient();
-            Console.WriteLine("Client connected");
+            while (true) {
+                Console.WriteLine("Waiting for request");
+                var client = listener.AcceptTcpClient();
+                Console.WriteLine("Client connected");
+                var stream = client.GetStream();
 
-            var stream = client.GetStream();
+                // Step 1: Accept the request and get the data
+                var request = RequestGetter.GetRequest(stream);
 
-            // Weko needs to learn how to do this with spans
-            //Span<byte> data = new Span<byte>();
-            //stream.Read(data);
-            //Console.WriteLine(data.ToByteString());
+                // Step 2: Transform the request object into a response object
+                var response = ServerEngine.Process(request);
 
-            byte[] bytes = new byte[256];
+                // Step 3: Sent the response data and close the request
+                ResponseSender.SendResponse(stream, response);
 
-            var readCount = stream.Read(bytes, 0, bytes.Length);
-
-            string requestData = string.Empty;
-
-            while (readCount != 0)
-            {
-                var realData = Encoding.ASCII.GetString(bytes, 0, readCount);
-                requestData += realData;
-                readCount = stream.Read(bytes, 0, bytes.Length);
+                Console.WriteLine("Sent response");
+                client.Close();
             }
 
-            Console.WriteLine(requestData);
-
-            stream.Close();
-            client.Close();
         }
     }
 }
