@@ -90,35 +90,91 @@ THIS IS THE BODY";
             Assert.AreEqual("THIS IS THE BODY", actual.Body);
         }
 
-
+        #region GET, POST, PUT, DELETE, OPTIONS, HEAD - Tests        
         [TestMethod]
-        public void Requests_With_Specific_Method_Should_Return_Correct_Method_Value_Test()
+        public void Get_Request_Should_Return_Correct_Method_Value_Test()
         {
             // 1. Arrange
             RequestParser parser = new RequestParser();
             var GETrequestString = @"GET /one/two?three=4 HTTP/1.1";
+
+            // 2. Act
+            var actualGet = parser.Parse(GETrequestString);                        
+
+            // 3. Assert
+            Assert.AreEqual(Method.Get, actualGet.Method);                                                
+        }
+
+        [TestMethod]
+        public void Post_Request_Should_Return_Correct_Method_Value_Test()
+        {
+            // 1. Arrange
+            RequestParser parser = new RequestParser();
             var POSTrequestString = @"POST /one/two?three=4 HTTP/1.1";
+
+            // 2. Act
+            var actualPost = parser.Parse(POSTrequestString);
+
+            // 3. Assert
+            Assert.AreEqual(Method.Post, actualPost.Method);
+        }
+
+        [TestMethod]
+        public void Put_Request_Should_Return_Correct_Method_Value_Test()
+        {
+            // 1. Arrange
+            RequestParser parser = new RequestParser();
             var PUTrequestString = @"PUT /one/two?three=4 HTTP/1.1";
+
+            // 2. Act
+            var actualPut = parser.Parse(PUTrequestString);
+
+            // 3. Assert
+            Assert.AreEqual(Method.Put, actualPut.Method);
+        }
+
+        [TestMethod]
+        public void Delete_Request_Should_Return_Correct_Method_Value_Test()
+        {
+            // 1. Arrange
+            RequestParser parser = new RequestParser();
             var DELETErequestString = @"DELETE /one/two?three=4 HTTP/1.1";
+
+            // 2. Act
+            var actualDelete = parser.Parse(DELETErequestString);
+
+            // 3. Assert
+            Assert.AreEqual(Method.Delete, actualDelete.Method);
+        }
+
+        [TestMethod]
+        public void Options_Request_Should_Return_Correct_Method_Value_Test()
+        {
+            // 1. Arrange
+            RequestParser parser = new RequestParser();
             var OPTIONSrequestString = @"OPTIONS /one/two?three=4 HTTP/1.1";
+
+            // 2. Act
+            var actualOptions = parser.Parse(OPTIONSrequestString);
+
+            // 3. Assert
+            Assert.AreEqual(Method.Options, actualOptions.Method);
+        }
+
+        [TestMethod]
+        public void Head_Request_Should_Return_Correct_Method_Value_Test()
+        {
+            // 1. Arrange
+            RequestParser parser = new RequestParser();
             var HEADrequestString = @"HEAD /one/two?three=4 HTTP/1.1";
 
             // 2. Act
-            var actualGet = parser.Parse(GETrequestString);
-            var actualPost = parser.Parse(POSTrequestString);
-            var actualPut = parser.Parse(PUTrequestString);
-            var actualDelete = parser.Parse(DELETErequestString);
-            var actualOptions = parser.Parse(OPTIONSrequestString);
             var actualHead = parser.Parse(HEADrequestString);
 
             // 3. Assert
-            Assert.AreEqual(Method.Get, actualGet.Method);
-            Assert.AreEqual(Method.Post, actualPost.Method);
-            Assert.AreEqual(Method.Put, actualPut.Method);
-            Assert.AreEqual(Method.Delete, actualDelete.Method);
-            Assert.AreEqual(Method.Options, actualOptions.Method);
             Assert.AreEqual(Method.Head, actualHead.Method);
         }
+        #endregion
 
         [TestMethod]
         public void Request_With_Specific_Header_Should_Return_Correct_Header_Value_Test()
