@@ -12,7 +12,15 @@ namespace SedcServer.Engine
         {
             Console.WriteLine(request);
             var message = "Hello Server World";
-            return new Response();
+            return new Response
+            {
+                // Doesn't make sense, but nice first approximation
+                Headers = request.Headers,
+                Version = request.Version,
+                Message = message,
+                Status = 200,
+                Body = "<h1>HELLO FROM SEDC SERVER</h1>"
+            };
         }
     }
 }
