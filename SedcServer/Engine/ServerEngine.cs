@@ -10,7 +10,6 @@ namespace SedcServer.Engine
     {
         public static Response Process(Request request)
         {
-            Console.WriteLine(request);
             var message = "Hello Server World";
             return new Response
             {

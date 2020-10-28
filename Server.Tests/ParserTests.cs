@@ -11,7 +11,7 @@ namespace Server.Tests
         public void Whatevs_Method_Should_Return_Unknown_Method_Test()
         {
             // 1. Arrange
-            RequestParser parser = new RequestParser();
+            RequestParser parser = new RequestParser(null);
             var requestString = @"WHATEVS /one/two?three=4 HTTP/1.1
 User-Agent: PostmanRuntime/7.26.7
 Cache-Control: no-cache
@@ -38,7 +38,7 @@ Content-Length: 0";
         public void Patch_Method_Should_Return_Patch_Method_Test()
         {
             // 1. Arrange
-            RequestParser parser = new RequestParser();
+            RequestParser parser = new RequestParser(null);
             var requestString = @"PATCH /one/two?three=4 HTTP/1.1
 User-Agent: PostmanRuntime/7.26.7
 Accept: */*
@@ -66,7 +66,7 @@ Content-Length: 0";
         public void Request_With_Body_Should_Return_Correct_Body()
         {
             // 1. Arrange
-            RequestParser parser = new RequestParser();
+            RequestParser parser = new RequestParser(null);
             var requestString = @"PATCH /one/two?three=4 HTTP/1.1
 User-Agent: PostmanRuntime/7.26.7
 Accept: */*

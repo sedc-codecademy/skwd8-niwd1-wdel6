@@ -8,7 +8,7 @@ namespace ServerTests
     {
         static void Main(string[] args)
         {
-            RequestParser parser = new RequestParser();
+            RequestParser parser = new RequestParser(null);
 
             var requestString1 = @"WHATEVS /one/two?three=4 HTTP/1.1
 User-Agent: PostmanRuntime/7.26.7

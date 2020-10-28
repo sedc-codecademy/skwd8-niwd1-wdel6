@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ServerEntities.Logging;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +10,16 @@ namespace ServerEntities
 {
     public class RequestParser
     {
+        public ILogger Logger { get; set; }
+
+        public RequestParser(ILogger logger)
+        {
+            Logger = logger;
+        }
+
         public Request Parse(string requestData)
         {
-            Console.WriteLine(requestData);
+            Logger.Debug(requestData);
 
             var lines = requestData.Split(Environment.NewLine);
 
@@ -61,3 +70,10 @@ namespace ServerEntities
         }
     }
 }
+
+
+// DEBUG
+// INFO
+// WARNING
+// ERROR
+// FATAL
