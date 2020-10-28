@@ -6,12 +6,14 @@ using System.Collections.Generic;
 using System.Net.Sockets;
 using System.Text;
 
-namespace SedcServer
+namespace ServerCore
 {
     public class RequestGetter
     {
         static public Request GetRequest(NetworkStream stream, ILogger logger)
         {
+            logger.Fatal("not-a-fatal-error");
+
             byte[] bytes = new byte[8192];
             var readCount = stream.Read(bytes, 0, bytes.Length);
             string requestData = Encoding.ASCII.GetString(bytes, 0, readCount);

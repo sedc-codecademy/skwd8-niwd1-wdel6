@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SedcServer.Engine
+namespace ServerCore.Engine
 {
     public class ServerEngine
     {
@@ -18,7 +18,7 @@ namespace SedcServer.Engine
                 Version = request.Version,
                 Message = message,
                 Status = 200,
-                Body = "<h1>HELLO FROM SEDC SERVER</h1>"
+                Body = $"<h1>HELLO FROM SEDC SERVER {DateTime.Now.ToLongTimeString()}</h1>"
             };
         }
     }

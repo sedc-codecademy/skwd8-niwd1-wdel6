@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Linq;
 
-namespace SedcServer
+namespace ServerCore
 {
     public static class Extension
     {

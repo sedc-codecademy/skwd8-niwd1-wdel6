@@ -7,7 +7,7 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 
-namespace SedcServer
+namespace ServerCore
 {
     public class ResponseSender
     {

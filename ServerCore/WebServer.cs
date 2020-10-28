@@ -1,4 +1,4 @@
-﻿using SedcServer.Engine;
+﻿using ServerCore.Engine;
 
 using ServerEntities.Logging;
 
@@ -8,7 +8,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-namespace SedcServer
+namespace ServerCore
 {
     public class WebServer
     {
@@ -18,11 +18,11 @@ namespace SedcServer
 
         public ILogger Logger { get; set; }
 
-        public WebServer(IPAddress address, int port, ILogger logger)
+        public WebServer(IPAddress address, int port, ILogger logger = null)
         {
             Address = address;
             Port = port;
-            Logger = logger;
+            Logger = logger ?? new ConsoleLogger();
         }
 
         public void Run()

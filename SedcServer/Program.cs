@@ -1,4 +1,4 @@
-﻿using SedcServer.Engine;
+﻿using ServerCore;
 
 using ServerEntities.Logging;
 
@@ -16,7 +16,8 @@ namespace SedcServer
         {
             var address = IPAddress.Loopback;
             var port = 668;
-            var logger = new DummyLogger();
+            // var logger = new ConsoleLogger(LogLevel.Info);
+            var logger = new FileLogger("log.txt");
             var server = new WebServer(address, port, logger);
 
             server.Run();
