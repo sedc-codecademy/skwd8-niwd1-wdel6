@@ -1,0 +1,3 @@
+[FATAL] not-a-fatal-error
+[FATAL] not-a-fatal-error
+[FATAL] not-a-fatal-error

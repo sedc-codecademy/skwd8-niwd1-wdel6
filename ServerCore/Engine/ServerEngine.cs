@@ -10,6 +10,7 @@ namespace ServerCore.Engine
     {
         public static Response Process(Request request)
         {
+            var parsedUri = UriParser.Parse(request.Uri);
             var message = "Hello Server World";
             return new Response
             {

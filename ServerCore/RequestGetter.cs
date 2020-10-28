@@ -12,8 +12,6 @@ namespace ServerCore
     {
         static public Request GetRequest(NetworkStream stream, ILogger logger)
         {
-            logger.Fatal("not-a-fatal-error");
-
             byte[] bytes = new byte[8192];
             var readCount = stream.Read(bytes, 0, bytes.Length);
             string requestData = Encoding.ASCII.GetString(bytes, 0, readCount);

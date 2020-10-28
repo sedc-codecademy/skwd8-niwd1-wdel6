@@ -27,7 +27,9 @@ namespace ServerEntities
             var requestRegex = new Regex(@"^([A-Z]+) (.+) HTTP\/(.*)$");
             var match = requestRegex.Match(requestLine);
             var method = match.Groups[1].Value;
+
             var uri = match.Groups[2].Value;
+
             var version = match.Groups[3].Value;
 
             var headerLines = lines.Skip(1).TakeWhile(line => !string.IsNullOrEmpty(line));
