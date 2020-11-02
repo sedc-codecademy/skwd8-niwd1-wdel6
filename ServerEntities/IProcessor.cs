@@ -4,8 +4,8 @@ using System.Text;
 
 namespace ServerEntities
 {
-    public class ResponseGenerator
+    public interface IProcessor
     {
-
+        Response Process(Request request);
     }
 }

@@ -1,5 +1,8 @@
 ﻿using ServerCore.Engine;
+using ServerCore.Requests;
+using ServerCore.Responses;
 
+using ServerEntities;
 using ServerEntities.Logging;
 
 using System;
@@ -8,7 +11,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-namespace ServerCore
+namespace ServerCore.Engine
 {
     public class WebServer
     {
@@ -17,12 +20,14 @@ namespace ServerCore
         public int Port { get; private set; }
 
         public ILogger Logger { get; set; }
+        public bool DebugMode { get; private set; }
 
-        public WebServer(IPAddress address, int port, ILogger logger = null)
+        public WebServer(IPAddress address, int port, ILogger logger = null, bool debugMode = false)
         {
             Address = address;
             Port = port;
             Logger = logger ?? new ConsoleLogger();
+            DebugMode = debugMode;
         }
 
         public void Run()
@@ -37,15 +42,27 @@ namespace ServerCore
                 var client = listener.AcceptTcpClient();
                 Logger.Info("Client connected");
                 var stream = client.GetStream();
+                using var requester = new RequestGetter(stream, Logger);
+                using var responder = new ResponseSender(stream, Logger);
 
-                // Step 1: Accept the request and get the data
-                var request = RequestGetter.GetRequest(stream, Logger);
+                Request request;
+                try 
+                { 
+                    // Step 1: Accept the request and get the data
+                    request = requester.GetRequest();
+                }
+                catch (Exception ex)
+                {
+                    Logger.Error("Unable to get the request", ex);
+                    responder.SendRequestErrorResponse(ex, DebugMode);
+                    continue;
+                }
 
                 // Step 2: Transform the request object into a response object
                 var response = ServerEngine.Process(request);
 
                 // Step 3: Sent the response data and close the request
-                ResponseSender.SendResponse(stream, response, Logger);
+                responder.SendResponse(response);
 
                 Logger.Info("Sent response");
                 client.Close();

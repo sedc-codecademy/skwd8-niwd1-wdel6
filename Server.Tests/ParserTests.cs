@@ -1,5 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ServerCore.Engine;
+using ServerCore.Requests;
+
 using ServerEntities;
 using ServerEntities.Logging;
 
@@ -29,7 +31,7 @@ Content-Length: 0";
 
             // 3. Assert
             Assert.AreEqual(Method.Unknown, actual.Method);
-            Assert.AreEqual("/one/two?three=4", actual.Uri);
+            Assert.AreEqual("/one/two?three=4", actual.Uri.Uri);
             Assert.AreEqual("1.1", actual.Version);
             Assert.AreEqual(false, actualAcceptHeaderTest);
             Assert.AreEqual(string.Empty, actual.Body);
@@ -57,7 +59,7 @@ Content-Length: 0";
 
             // 3. Assert
             Assert.AreEqual(Method.Patch, actual.Method);
-            Assert.AreEqual("/one/two?three=4", actual.Uri);
+            Assert.AreEqual("/one/two?three=4", actual.Uri.Uri);
             Assert.AreEqual("1.1", actual.Version);
             Assert.AreEqual(8, actual.Headers.Count);
             Assert.AreEqual("*/*", actualAcceptHeader.Value);
@@ -86,55 +88,13 @@ THIS IS THE BODY";
 
             // 3. Assert
             Assert.AreEqual(Method.Patch, actual.Method);
-            Assert.AreEqual("/one/two?three=4", actual.Uri);
+            Assert.AreEqual("/one/two?three=4", actual.Uri.Uri);
             Assert.AreEqual("1.1", actual.Version);
             Assert.AreEqual("THIS IS THE BODY", actual.Body);
         }
 
 
 
-        [TestMethod]
-        public void Request_With_Uri_Should_Return_Correct_Uri()
-        {
-            // 1. Arrange
-            var uri = @"/paths/4/paths/2/path?key=value&key2=value2&key3=value3";
-
-            // 2. Act
-            var uriParts = UriParser.Parse(uri);
-
-            // 3. Assert
-            string actualUri = uriParts.Uri;
-            Assert.AreEqual(uri, actualUri);
-        }
-
-        [TestMethod]
-        public void Request_Without_Query_Should_Return_Correct_Uri()
-        {
-            // 1. Arrange
-            var uri = "/paths/4/paths/2/path";
-
-            // 2. Act
-            var uriParts = UriParser.Parse(uri);
-
-            // 3. Assert
-            string actualUri = uriParts.Uri;
-            Assert.AreEqual(uri, actualUri);
-        }
-
-        [TestMethod]
-        [DataRow("path/.#$$.../path")]
-        [DataRow("path/path?key=")]
-        [DataRow("Some custom invalid uri.")]
-        [DataRow("path%20%20/path")]
-        [DataRow("path?key=value&key")]
-        [DataRow("")]
-        public void Request_With_Invalid_Uri_Should_Throw_Argument_Exception(string invalidUri)
-        {
-            // 2. Act
-            System.Action parseUri = () => UriParser.Parse(invalidUri);
-
-            // 3. Assert            
-            Assert.ThrowsException<System.ArgumentException>(parseUri, "uri");
-        }
+        
     }
 }

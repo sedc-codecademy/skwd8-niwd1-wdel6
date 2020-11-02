@@ -12,8 +12,24 @@ namespace ServerEntities
 
         public string Body { get; set; }
 
-        public int Status { get; set; }
+        private int status;
+
+        public StatusCode Status {
+            get => (StatusCode)status;
+            set {
+                status = (int)value;
+                Message = value.GetDescription();
+            }
+        }
 
         public string Message { get; set; }
+
+        public static Response EmptyResponse = new Response
+        {
+            Headers = new HeaderCollection(),
+            Version = "1.1",
+            Status = StatusCode.Invalid,
+            Message = string.Empty
+        };
     }
 }

@@ -6,7 +6,7 @@ namespace ServerEntities
 {
     public class QueryCollection
     {
-        private Dictionary<string, string> _queries = new Dictionary<string, string>();
+        private readonly Dictionary<string, string> _queries = new Dictionary<string, string>();
         public QueryCollection() { }
 
 
@@ -58,7 +58,7 @@ namespace ServerEntities
 
         public void SetQuery(string query)
         {
-            var queries = query.Split('&');
+            var queries = query.Split('&', StringSplitOptions.RemoveEmptyEntries);
             foreach (var queryPart in queries) 
             {
                 var keyValuePair = queryPart.Split('=');

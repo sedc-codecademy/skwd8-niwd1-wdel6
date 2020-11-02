@@ -1,4 +1,6 @@
-﻿using ServerEntities;
+﻿using ServerCore.Requests;
+
+using ServerEntities;
 
 using System;
 
@@ -37,7 +39,7 @@ Content-Length: 0";
             }
 
             Console.Write("Request 1 Test 2 ");
-            if (request1.Uri == "/one/two?three=4")
+            if (request1.Uri.Uri == "/one/two?three=4")
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("OK");
