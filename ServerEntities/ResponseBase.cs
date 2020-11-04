@@ -24,12 +24,12 @@ namespace ServerEntities
         }
 
         public string Message { get; set; }
+
+        public abstract byte[] AppendBody(byte[] content);
     }
 
     public abstract class ResponseBase<T> : ResponseBase
     {
         public T Body { get; set; }
-
-        public abstract T AppendToBody(T content);
     }
 }

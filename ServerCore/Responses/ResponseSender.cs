@@ -27,19 +27,10 @@ namespace ServerCore.Responses
             var headersLines = GetHeaderLines(response.Headers);
 
             string content = statusLine + Environment.NewLine + headersLines + Environment.NewLine + Environment.NewLine;
-
-            if (response is Response strResponse)
-            {
-                content = strResponse.AppendToBody(content);
-            }
-
             Logger.Debug(content);
             var contentBytes = Encoding.ASCII.GetBytes(content);
 
-            if (response is BinaryResponse binResponse)
-            {
-                contentBytes = binResponse.AppendToBody(contentBytes);
-            }
+            contentBytes = response.AppendBody(contentBytes);
 
             Stream.Write(contentBytes);
             Stream.Close();

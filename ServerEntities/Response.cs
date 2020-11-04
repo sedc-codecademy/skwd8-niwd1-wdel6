@@ -15,17 +15,25 @@ namespace ServerEntities
             Message = string.Empty
         };
 
-        public override string AppendToBody(string content)
+        public override byte[] AppendBody(byte[] content)
         {
-            return content + Body;
+            return content.Concat(Encoding.ASCII.GetBytes(Body)).ToArray();
         }
     }
 
     public class BinaryResponse : ResponseBase<byte[]>
     {
-        public override byte[] AppendToBody(byte[] content)
+        public override byte[] AppendBody(byte[] content)
         {
             return content.Concat(Body).ToArray();
+        }
+    }
+
+    public class BodylessResponse : ResponseBase
+    {
+        public override byte[] AppendBody(byte[] content)
+        {
+            return content;
         }
     }
 }
