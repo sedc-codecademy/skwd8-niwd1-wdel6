@@ -1,31 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ServerEntities
 {
-    public class Response
+    public class Response: ResponseBase<string>
     {
-        public HeaderCollection Headers { get; set; }
-
-        public string Version { get; set; }
-
-        public string Body { get; set; }
-
-        public byte[] BinaryBody { get; set; }
-
-        private int status;
-
-        public StatusCode Status {
-            get => (StatusCode)status;
-            set {
-                status = (int)value;
-                Message = value.GetDescription();
-            }
-        }
-
-        public string Message { get; set; }
-
         public static Response EmptyResponse = new Response
         {
             Headers = new HeaderCollection(),
@@ -33,5 +14,18 @@ namespace ServerEntities
             Status = StatusCode.Invalid,
             Message = string.Empty
         };
+
+        public override string AppendToBody(string content)
+        {
+            return content + Body;
+        }
+    }
+
+    public class BinaryResponse : ResponseBase<byte[]>
+    {
+        public override byte[] AppendToBody(byte[] content)
+        {
+            return content.Concat(Body).ToArray();
+        }
     }
 }

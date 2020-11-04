@@ -20,24 +20,25 @@ namespace ServerCore.Responses
             Logger = logger;
         }
 
-        public void SendResponse(Response response)
+        public void SendResponse(ResponseBase response)
         {
             var status = (int)response.Status;
             var statusLine = $"HTTP/{response.Version} {status} {response.Message}";
             var headersLines = GetHeaderLines(response.Headers);
 
             string content = statusLine + Environment.NewLine + headersLines + Environment.NewLine + Environment.NewLine;
-            if (!string.IsNullOrEmpty(response.Body))
+
+            if (response is Response strResponse)
             {
-                content += response.Body;
+                content = strResponse.AppendToBody(content);
             }
 
             Logger.Debug(content);
             var contentBytes = Encoding.ASCII.GetBytes(content);
 
-            if (response.BinaryBody != null)
+            if (response is BinaryResponse binResponse)
             {
-                contentBytes = contentBytes.Concat(response.BinaryBody).ToArray();
+                contentBytes = binResponse.AppendToBody(contentBytes);
             }
 
             Stream.Write(contentBytes);

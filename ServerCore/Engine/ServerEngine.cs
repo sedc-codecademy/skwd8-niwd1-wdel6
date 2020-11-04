@@ -8,7 +8,7 @@ namespace ServerCore.Engine
 {
     public class ServerEngine
     {
-        public static Response Process(Request request)
+        public static ResponseBase Process(Request request)
         {
             // do some check whether our request is for a file
             

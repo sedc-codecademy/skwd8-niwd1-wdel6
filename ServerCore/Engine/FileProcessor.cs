@@ -9,7 +9,7 @@ namespace ServerCore.Engine
 {
     class FileProcessor : IProcessor
     {
-        public Response Process(Request request)
+        public ResponseBase Process(Request request)
         {
             var filename = request.Uri.Paths[0];
             
@@ -18,12 +18,12 @@ namespace ServerCore.Engine
             var headers = new HeaderCollection();
             headers.SetHeader("Content-Type", "text/plain");
 
-            return new Response
+            return new BinaryResponse
             {
                 Headers = headers,
                 Version = request.Version,
                 Status = StatusCode.OK,
-                BinaryBody = content
+                Body = content
             };
         }
     }

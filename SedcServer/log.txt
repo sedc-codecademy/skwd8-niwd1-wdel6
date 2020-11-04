@@ -7048,3 +7048,749 @@ Content-Type: text/plain
 [DEBUG] Client connected
 [INFO] Started listening
 [DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /not-a-file HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /not-a-file
+[DEBUG] HTTP/1.1 200 OK
+
+
+
+<html>
+    <head>
+        <title>SEDC Server Response</title>
+    </head>
+<body>
+<h1>HELLO FROM SEDC SERVER 7:45:23 PM</h1>
+<img src="https://www.sedc.mk/wp-content/uploads/2016/05/logo.png" />
+<p>The type of the request is <strong>GET</strong></p>
+<p>The base URI of the request is /not-a-file</p>
+<p>The headers of the request are</p>
+<ul>
+<li><strong>Host:</strong> localhost:668</li>
+<li><strong>Connection:</strong> keep-alive</li>
+<li><strong>Cache-Control:</strong> max-age=0</li>
+<li><strong>Upgrade-Insecure-Requests:</strong> 1</li>
+<li><strong>User-Agent:</strong> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36</li>
+<li><strong>Accept:</strong> text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</li>
+<li><strong>Sec-Fetch-Site:</strong> none</li>
+<li><strong>Sec-Fetch-Mode:</strong> navigate</li>
+<li><strong>Sec-Fetch-User:</strong> ?1</li>
+<li><strong>Sec-Fetch-Dest:</strong> document</li>
+<li><strong>Accept-Encoding:</strong> gzip, deflate, br</li>
+<li><strong>Accept-Language:</strong> en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4</li>
+<li><strong>Cookie:</strong> language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779</li>
+</ul>
+<p>There is no body </p>
+</body></html>
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /lola-mraz.jpg HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /lola-mraz.jpg
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/lola-mraz.jpg
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /lola-mraz.jpg HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /lola-mraz.jpg
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/lola-mraz.jpg
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /lola-mraz.jpg HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /lola-mraz.jpg
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/lola-mraz.jpg
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /lola-mraz.jpg HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /lola-mraz.jpg
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/lola-mraz.jpg
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /not-a-file HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /not-a-file
+[DEBUG] HTTP/1.1 200 OK
+
+
+
+<html>
+    <head>
+        <title>SEDC Server Response</title>
+    </head>
+<body>
+<h1>HELLO FROM SEDC SERVER 7:48:59 PM</h1>
+<img src="https://www.sedc.mk/wp-content/uploads/2016/05/logo.png" />
+<p>The type of the request is <strong>GET</strong></p>
+<p>The base URI of the request is /not-a-file</p>
+<p>The headers of the request are</p>
+<ul>
+<li><strong>Host:</strong> localhost:668</li>
+<li><strong>Connection:</strong> keep-alive</li>
+<li><strong>Cache-Control:</strong> max-age=0</li>
+<li><strong>Upgrade-Insecure-Requests:</strong> 1</li>
+<li><strong>User-Agent:</strong> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36</li>
+<li><strong>Accept:</strong> text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</li>
+<li><strong>Sec-Fetch-Site:</strong> none</li>
+<li><strong>Sec-Fetch-Mode:</strong> navigate</li>
+<li><strong>Sec-Fetch-User:</strong> ?1</li>
+<li><strong>Sec-Fetch-Dest:</strong> document</li>
+<li><strong>Accept-Encoding:</strong> gzip, deflate, br</li>
+<li><strong>Accept-Language:</strong> en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4</li>
+<li><strong>Cookie:</strong> language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779</li>
+</ul>
+<p>There is no body </p>
+</body></html>
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/not-a-file
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /not-a-file HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /not-a-file
+[DEBUG] HTTP/1.1 200 OK
+
+
+
+<html>
+    <head>
+        <title>SEDC Server Response</title>
+    </head>
+<body>
+<h1>HELLO FROM SEDC SERVER 7:49:00 PM</h1>
+<img src="https://www.sedc.mk/wp-content/uploads/2016/05/logo.png" />
+<p>The type of the request is <strong>GET</strong></p>
+<p>The base URI of the request is /not-a-file</p>
+<p>The headers of the request are</p>
+<ul>
+<li><strong>Host:</strong> localhost:668</li>
+<li><strong>Connection:</strong> keep-alive</li>
+<li><strong>Cache-Control:</strong> max-age=0</li>
+<li><strong>Upgrade-Insecure-Requests:</strong> 1</li>
+<li><strong>User-Agent:</strong> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36</li>
+<li><strong>Accept:</strong> text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</li>
+<li><strong>Sec-Fetch-Site:</strong> none</li>
+<li><strong>Sec-Fetch-Mode:</strong> navigate</li>
+<li><strong>Sec-Fetch-User:</strong> ?1</li>
+<li><strong>Sec-Fetch-Dest:</strong> document</li>
+<li><strong>Accept-Encoding:</strong> gzip, deflate, br</li>
+<li><strong>Accept-Language:</strong> en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4</li>
+<li><strong>Cookie:</strong> language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779</li>
+</ul>
+<p>There is no body </p>
+</body></html>
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/not-a-file
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /lola-mraz.jpg HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /lola-mraz.jpg
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/lola-mraz.jpg
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /not-a-file HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /not-a-file
+[DEBUG] HTTP/1.1 200 OK
+
+
+
+<html>
+    <head>
+        <title>SEDC Server Response</title>
+    </head>
+<body>
+<h1>HELLO FROM SEDC SERVER 8:02:27 PM</h1>
+<img src="https://www.sedc.mk/wp-content/uploads/2016/05/logo.png" />
+<p>The type of the request is <strong>GET</strong></p>
+<p>The base URI of the request is /not-a-file</p>
+<p>The headers of the request are</p>
+<ul>
+<li><strong>Host:</strong> localhost:668</li>
+<li><strong>Connection:</strong> keep-alive</li>
+<li><strong>Cache-Control:</strong> max-age=0</li>
+<li><strong>Upgrade-Insecure-Requests:</strong> 1</li>
+<li><strong>User-Agent:</strong> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36</li>
+<li><strong>Accept:</strong> text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</li>
+<li><strong>Sec-Fetch-Site:</strong> none</li>
+<li><strong>Sec-Fetch-Mode:</strong> navigate</li>
+<li><strong>Sec-Fetch-User:</strong> ?1</li>
+<li><strong>Sec-Fetch-Dest:</strong> document</li>
+<li><strong>Accept-Encoding:</strong> gzip, deflate, br</li>
+<li><strong>Accept-Language:</strong> en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4</li>
+<li><strong>Cookie:</strong> language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779</li>
+</ul>
+<p>There is no body </p>
+</body></html>
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/not-a-file
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /not-a-file HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /not-a-file
+[DEBUG] HTTP/1.1 200 OK
+
+
+
+<html>
+    <head>
+        <title>SEDC Server Response</title>
+    </head>
+<body>
+<h1>HELLO FROM SEDC SERVER 8:02:29 PM</h1>
+<img src="https://www.sedc.mk/wp-content/uploads/2016/05/logo.png" />
+<p>The type of the request is <strong>GET</strong></p>
+<p>The base URI of the request is /not-a-file</p>
+<p>The headers of the request are</p>
+<ul>
+<li><strong>Host:</strong> localhost:668</li>
+<li><strong>Connection:</strong> keep-alive</li>
+<li><strong>Cache-Control:</strong> max-age=0</li>
+<li><strong>Upgrade-Insecure-Requests:</strong> 1</li>
+<li><strong>User-Agent:</strong> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36</li>
+<li><strong>Accept:</strong> text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</li>
+<li><strong>Sec-Fetch-Site:</strong> none</li>
+<li><strong>Sec-Fetch-Mode:</strong> navigate</li>
+<li><strong>Sec-Fetch-User:</strong> ?1</li>
+<li><strong>Sec-Fetch-Dest:</strong> document</li>
+<li><strong>Accept-Encoding:</strong> gzip, deflate, br</li>
+<li><strong>Accept-Language:</strong> en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4</li>
+<li><strong>Cookie:</strong> language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779</li>
+</ul>
+<p>There is no body </p>
+</body></html>
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/not-a-file
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /not-a-file HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /not-a-file
+[DEBUG] HTTP/1.1 200 OK
+
+
+
+<html>
+    <head>
+        <title>SEDC Server Response</title>
+    </head>
+<body>
+<h1>HELLO FROM SEDC SERVER 8:16:19 PM</h1>
+<img src="https://www.sedc.mk/wp-content/uploads/2016/05/logo.png" />
+<p>The type of the request is <strong>GET</strong></p>
+<p>The base URI of the request is /not-a-file</p>
+<p>The headers of the request are</p>
+<ul>
+<li><strong>Host:</strong> localhost:668</li>
+<li><strong>Connection:</strong> keep-alive</li>
+<li><strong>Cache-Control:</strong> max-age=0</li>
+<li><strong>Upgrade-Insecure-Requests:</strong> 1</li>
+<li><strong>User-Agent:</strong> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36</li>
+<li><strong>Accept:</strong> text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9</li>
+<li><strong>Sec-Fetch-Site:</strong> none</li>
+<li><strong>Sec-Fetch-Mode:</strong> navigate</li>
+<li><strong>Sec-Fetch-User:</strong> ?1</li>
+<li><strong>Sec-Fetch-Dest:</strong> document</li>
+<li><strong>Accept-Encoding:</strong> gzip, deflate, br</li>
+<li><strong>Accept-Language:</strong> en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4</li>
+<li><strong>Cookie:</strong> language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779</li>
+</ul>
+<p>There is no body </p>
+</body></html>
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/not-a-file
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /lola-mraz.jpg HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /lola-mraz.jpg
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/lola-mraz.jpg
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request

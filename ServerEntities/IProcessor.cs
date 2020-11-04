@@ -6,6 +6,6 @@ namespace ServerEntities
 {
     public interface IProcessor
     {
-        Response Process(Request request);
+        ResponseBase Process(Request request);
     }
 }

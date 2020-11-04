@@ -10,7 +10,7 @@ namespace ServerCore.Responses
     {
         public static Response MakeRequestErrorResponse(Exception ex, bool debugMode)
         {
-            var response = Response.EmptyResponse;
+            var response = new Response();
             response.Status = StatusCode.BadRequest;
             response.Body = debugMode ? ex.ToString() : "Error Occured";
             return response;
