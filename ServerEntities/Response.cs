@@ -12,6 +12,8 @@ namespace ServerEntities
 
         public string Body { get; set; }
 
+        public byte[] BinaryBody { get; set; }
+
         private int status;
 
         public StatusCode Status {

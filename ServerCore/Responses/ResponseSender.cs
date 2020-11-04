@@ -26,14 +26,20 @@ namespace ServerCore.Responses
             var statusLine = $"HTTP/{response.Version} {status} {response.Message}";
             var headersLines = GetHeaderLines(response.Headers);
 
-            string content = statusLine + Environment.NewLine + headersLines + Environment.NewLine;
+            string content = statusLine + Environment.NewLine + headersLines + Environment.NewLine + Environment.NewLine;
             if (!string.IsNullOrEmpty(response.Body))
             {
-                content += Environment.NewLine + response.Body;
+                content += response.Body;
             }
 
             Logger.Debug(content);
             var contentBytes = Encoding.ASCII.GetBytes(content);
+
+            if (response.BinaryBody != null)
+            {
+                contentBytes = contentBytes.Concat(response.BinaryBody).ToArray();
+            }
+
             Stream.Write(contentBytes);
             Stream.Close();
         }

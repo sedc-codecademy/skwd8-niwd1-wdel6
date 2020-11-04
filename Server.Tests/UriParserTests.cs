@@ -68,5 +68,19 @@ namespace Server.Tests
             Assert.AreEqual(0, actual.Paths.Length);
             Assert.AreEqual(0, actual.Query.Count);
         }
+
+        [TestMethod]
+        public void Request_With_Minus_In_Path_Should_Return_Correct_Uri()
+        {
+            // 1. Arrange
+            var uri = "/lola-mraz.jpg";
+
+            // 2. Act
+            var uriParts = UriParser.Parse(uri);
+
+            // 3. Assert
+            string actualUri = uriParts.Uri;
+            Assert.AreEqual(uri, actualUri);
+        }
     }
 }

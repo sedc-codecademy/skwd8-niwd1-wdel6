@@ -17,5 +17,12 @@ namespace ServerCore
         {
             return $"[{source.Length}]: {string.Join(",", source)}";
         }
+
+        static public bool IsFileName(this string input)
+        {
+            if (input.StartsWith(".")) return false;
+            if (input.EndsWith(".")) return false;
+            return input.IndexOf(".") > 0;
+        }
     }
 }
