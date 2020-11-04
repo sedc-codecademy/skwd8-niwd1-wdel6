@@ -38,9 +38,9 @@ namespace ServerCore.Engine
 
             while (true)
             {
-                Logger.Info("Waiting for request");
+                Logger.Debug("Waiting for request");
                 var client = listener.AcceptTcpClient();
-                Logger.Info("Client connected");
+                Logger.Debug("Client connected");
                 var stream = client.GetStream();
                 using var requester = new RequestGetter(stream, Logger);
                 using var responder = new ResponseSender(stream, Logger);
@@ -64,7 +64,7 @@ namespace ServerCore.Engine
                 // Step 3: Sent the response data and close the request
                 responder.SendResponse(response);
 
-                Logger.Info("Sent response");
+                Logger.Debug("Sent response");
                 client.Close();
             }
         }

@@ -12,9 +12,9 @@ namespace ServerCore.Requests
         public static UriParts Parse(string uri)
         {
             /* 
-             * Explanation of regex at https://regex101.com/r/jPWZsT/1/          
+             * Explanation of regex at https://regex101.com/r/jPWZsT/2/          
              */
-            var match = Regex.Match(uri, @"^((?:\/(?:\w|\.)*\/?)+)\??((?:\w+=\w+&?)*)$");
+            var match = Regex.Match(uri, @"^((?:\/(?:[a-zA-Z0-9_-]|\.)*\/?)+)\??((?:[a-zA-Z0-9_-]+=[a-zA-Z0-9_-]+&?)*)$");
             if (!match.Success)
             {
                 throw new ArgumentException("uri");

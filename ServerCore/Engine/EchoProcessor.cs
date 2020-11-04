@@ -8,7 +8,7 @@ namespace ServerCore.Engine
 {
     class EchoProcessor : IProcessor
     {
-        public Response Process(Request request)
+        public ResponseBase Process(Request request)
         {
             var body = new StringBuilder(@$"
 <html>

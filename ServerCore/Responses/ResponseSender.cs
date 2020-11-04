@@ -20,20 +20,18 @@ namespace ServerCore.Responses
             Logger = logger;
         }
 
-        public void SendResponse(Response response)
+        public void SendResponse(ResponseBase response)
         {
             var status = (int)response.Status;
             var statusLine = $"HTTP/{response.Version} {status} {response.Message}";
             var headersLines = GetHeaderLines(response.Headers);
 
-            string content = statusLine + Environment.NewLine + headersLines + Environment.NewLine;
-            if (!string.IsNullOrEmpty(response.Body))
-            {
-                content += Environment.NewLine + response.Body;
-            }
-
+            string content = statusLine + Environment.NewLine + headersLines + Environment.NewLine + Environment.NewLine;
             Logger.Debug(content);
             var contentBytes = Encoding.ASCII.GetBytes(content);
+
+            contentBytes = response.AppendBody(contentBytes);
+
             Stream.Write(contentBytes);
             Stream.Close();
         }

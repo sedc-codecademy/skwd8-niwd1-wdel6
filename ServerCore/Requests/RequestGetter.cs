@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ServerCore.Requests
 {
@@ -25,6 +26,7 @@ namespace ServerCore.Requests
             string requestData = Encoding.ASCII.GetString(bytes, 0, readCount);
             var parser = new RequestParser(Logger);
             var request = parser.Parse(requestData);
+            Logger.Info($"Received {request.Method} request on path {request.Uri.Uri}");
             return request;
         }
 
