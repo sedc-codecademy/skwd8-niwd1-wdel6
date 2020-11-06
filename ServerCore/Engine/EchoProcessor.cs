@@ -1,8 +1,7 @@
 ﻿using ServerEntities;
-
 using System;
-using System.Collections.Generic;
 using System.Text;
+
 
 namespace ServerCore.Engine
 {
@@ -40,6 +39,9 @@ namespace ServerCore.Engine
             }
 
             body.AppendLine("</body></html>");
+
+            var headers = new HeaderCollection();
+            headers.SetHeader("Content-Type", "html");
 
             return new Response
             {

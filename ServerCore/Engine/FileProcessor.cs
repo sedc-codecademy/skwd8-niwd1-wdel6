@@ -1,9 +1,6 @@
 ﻿using ServerEntities;
-
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
+
 
 namespace ServerCore.Engine
 {
@@ -12,11 +9,15 @@ namespace ServerCore.Engine
         public ResponseBase Process(Request request)
         {
             var filename = request.Uri.Paths[0];
-            
-            var content = File.ReadAllBytes(filename);
+
+            var content = File.ReadAllBytes("not-found.txt");
+            if (File.Exists(filename))
+            {
+                content = File.ReadAllBytes(filename);
+            }
 
             var headers = new HeaderCollection();
-            headers.SetHeader("Content-Type", "text/plain");
+            headers.SetHeader("Content-Type", "html");
 
             return new BinaryResponse
             {
