@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionDemo", "..\Reflec
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{0556B767-CC94-40BA-BBE8-1775BCC3AC64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDemo", "..\AsyncDemo\AsyncDemo.csproj", "{7D24968E-0ADF-4EC0-9910-E0F872BC8FAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncDemo", "..\AsyncDemo\AsyncDemo.csproj", "{7D24968E-0ADF-4EC0-9910-E0F872BC8FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SedcJsonSerializer", "..\SedcJsonSerializer\SedcJsonSerializer.csproj", "{182197B2-437C-4DEB-B78E-16E8C0EBF295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SedcJsonSerializer.Tests", "..\SedcJsonSerializer.Tests\SedcJsonSerializer.Tests.csproj", "{D9727F41-59C4-4379-939B-675CE784CA1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +69,14 @@ Global
 		{7D24968E-0ADF-4EC0-9910-E0F872BC8FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D24968E-0ADF-4EC0-9910-E0F872BC8FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D24968E-0ADF-4EC0-9910-E0F872BC8FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{182197B2-437C-4DEB-B78E-16E8C0EBF295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182197B2-437C-4DEB-B78E-16E8C0EBF295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182197B2-437C-4DEB-B78E-16E8C0EBF295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182197B2-437C-4DEB-B78E-16E8C0EBF295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9727F41-59C4-4379-939B-675CE784CA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9727F41-59C4-4379-939B-675CE784CA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9727F41-59C4-4379-939B-675CE784CA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9727F41-59C4-4379-939B-675CE784CA1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

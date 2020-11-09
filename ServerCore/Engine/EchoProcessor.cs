@@ -8,6 +8,11 @@ namespace ServerCore.Engine
 {
     class EchoProcessor : IProcessor
     {
+        public bool CanProcess(Request request)
+        {
+            return true;
+        }
+
         public ResponseBase Process(Request request)
         {
             var body = new StringBuilder(@$"

@@ -6,15 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SedcJsonSerializer\SedcJsonSerializer.csproj" />
     <ProjectReference Include="..\ServerCore\ServerCore.csproj" />
     <ProjectReference Include="..\ServerEntities\ServerEntities.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="favicon.ico">
+    <None Update="site\favicon.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="lola-mraz.jpg">
+    <None Update="site\lola-mraz.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

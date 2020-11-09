@@ -22,12 +22,20 @@ namespace ServerCore.Engine
         public ILogger Logger { get; set; }
         public bool DebugMode { get; private set; }
 
+        public ServerEngine Engine { get; private set; }
+
         public WebServer(IPAddress address, int port, ILogger logger = null, bool debugMode = false)
         {
             Address = address;
             Port = port;
             Logger = logger ?? new ConsoleLogger();
             DebugMode = debugMode;
+            Engine = new ServerEngine();
+        }
+
+        public void RegisterProcessor(IProcessor processor)
+        {
+            Engine.RegisterProcessor(processor);
         }
 
         public void Run()
@@ -59,7 +67,7 @@ namespace ServerCore.Engine
                 }
 
                 // Step 2: Transform the request object into a response object
-                var response = ServerEngine.Process(request);
+                var response = Engine.Process(request);
 
                 // Step 3: Sent the response data and close the request
                 responder.SendResponse(response);

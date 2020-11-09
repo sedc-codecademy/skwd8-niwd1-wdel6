@@ -8,20 +8,35 @@ namespace ServerCore.Engine
 {
     public class ServerEngine
     {
-        public static ResponseBase Process(Request request)
+        private List<IProcessor> processors;
+
+        public ServerEngine()
         {
-            // do some check whether our request is for a file
-            
-            if ((request.Uri.Paths.Length == 1) && request.Uri.Paths[0].IsFileName())
+            processors = new List<IProcessor>
             {
-                var fileProcessor = new FileProcessor();
-                var fileResponse = fileProcessor.Process(request);
-                return fileResponse;
+                new CalculationProcessor(),
+                new FileProcessor(),
+                new EchoProcessor()
+            };
+        }
+
+        public ResponseBase Process(Request request)
+        {
+            foreach (var processor in processors)
+            {
+                if (processor.CanProcess(request))
+                {
+                    var calcResponse = processor.Process(request);
+                    return calcResponse;
+                }
             }
 
-            var processor = new EchoProcessor();
-            var response = processor.Process(request);
-            return response;
+            throw new ApplicationException("This is not possible");
+        }
+
+        internal void RegisterProcessor(IProcessor processor)
+        {
+            processors.Insert(0, processor);
         }
     }
 }

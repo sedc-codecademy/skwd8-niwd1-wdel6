@@ -7,5 +7,6 @@ namespace ServerEntities
     public interface IProcessor
     {
         ResponseBase Process(Request request);
+        bool CanProcess(Request request);
     }
 }
