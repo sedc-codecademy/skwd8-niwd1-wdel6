@@ -33,6 +33,9 @@ namespace ServerEntities
         [Description("Not Found")]
         NotFound = 404,
 
+        [Description("Semantic Error")]
+        SemanticError = 422,
+
         [Description("Server Error")]
         ServerError = 500,
 

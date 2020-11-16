@@ -22,9 +22,11 @@ namespace SedcServer
 
             var server = new WebServer(address, port, logger);
 
-            server.RegisterProcessor(new HiProcessor());
+            server.RegisterProcessor<HiProcessor>();
             server.RegisterProcessor(new AngularProcessor(@"C:\Source\SEDC\skwd8-niwd1-wdel6\AngularSite\demo\dist\demo"));
-            server.RegisterProcessor(new ApiProcessor());
+            server.RegisterProcessor<ApiProcessor>();
+            server.RegisterProcessor<CalcApiProcessor>();
+            server.RegisterProcessor(new FileProcessor());
 
             server.Run();
 

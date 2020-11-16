@@ -8,6 +8,16 @@ namespace ServerCore.Responses
 {
     public class ResponseGenerator
     {
+
+        public static Response MakeSemanticErrorResponse(string message, bool debugMode = false)
+        {
+            var response = new Response();
+            response.Status = StatusCode.SemanticError;
+            response.Headers = new HeaderCollection();
+            response.Headers.SetHeader("Content-Type", "text/plain");
+            response.Body = debugMode ? message : "Error Occured";
+            return response;
+        }
         public static Response MakeRequestErrorResponse(Exception ex, bool debugMode = false)
         {
             var response = new Response();

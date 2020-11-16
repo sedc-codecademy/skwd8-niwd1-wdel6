@@ -38,6 +38,13 @@ namespace ServerCore.Engine
             Engine.RegisterProcessor(processor);
         }
 
+        public void RegisterProcessor<T>() where T: IProcessor, new()
+        {
+            var processor = new T();
+            Engine.RegisterProcessor(processor);
+        }
+
+
         public void Run()
         {
             TcpListener listener = new TcpListener(Address, Port);
