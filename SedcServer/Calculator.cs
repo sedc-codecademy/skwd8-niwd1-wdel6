@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace SedcServer
 {
     class Calculator
     {
-        public CalculationResult Calculate(string operation, int first, int second)
+        public CalculationResult Calculate(string operation, double first, double second)
         {
             var result = operation switch
             {
@@ -18,8 +17,8 @@ namespace SedcServer
             return new CalculationResult
             {
                 Operation = operation,
-                Arguments = new int[]{ first, second },
-                Result = result
+                Arguments = new double[]{ first, second },
+                Result = Math.Round(result, 15, MidpointRounding.AwayFromZero)
             };
         }
     }
@@ -27,7 +26,7 @@ namespace SedcServer
     struct CalculationResult
     {
         public string Operation { get; set; }
-        public int[] Arguments { get; set; }
-        public int Result { get; set; }
+        public double[] Arguments { get; set; }
+        public double Result { get; set; }
     }
 }
