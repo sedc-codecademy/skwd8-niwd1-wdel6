@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Reflection;
 using System.Text;
+
 
 namespace SedcJsonSerializer
 {
@@ -26,6 +26,7 @@ namespace SedcJsonSerializer
             {typeof(ulong), numberConversion},
             {typeof(short), numberConversion},
             {typeof(ushort), numberConversion},
+            {typeof(double), numberConversion}
         };
 
         public static string Serialize<T>(T source)
