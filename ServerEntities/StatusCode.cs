@@ -39,6 +39,10 @@ namespace ServerEntities
         [Description("Server Error")]
         ServerError = 500,
 
+        [Description("Switching Protocols")]
+        SwitchingProtocols = 101,
+
+
         [Description("Invalid")]
         Invalid = 0
     }

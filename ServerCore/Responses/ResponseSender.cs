@@ -32,7 +32,11 @@ namespace ServerCore.Responses
 
             contentBytes = response.AppendBody(contentBytes);
 
-            Stream.Write(contentBytes);
+            Stream.Write(contentBytes, 0, contentBytes.Length);
+            if (status == 101)
+            {
+                return;
+            }
             Stream.Close();
         }
 

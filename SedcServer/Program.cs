@@ -17,7 +17,7 @@ namespace SedcServer
             var address = IPAddress.Loopback;
             var port = 668;
             
-            var logger = new CompositeLogger(new ConsoleLogger(LogLevel.Info), new FileLogger("log.txt"));
+            var logger = new CompositeLogger(new ConsoleLogger(LogLevel.Debug), new FileLogger("log.txt"));
             logger.Add(new FileLogger("other-log.txt", LogLevel.Error));
 
             var server = new WebServer(address, port, logger);

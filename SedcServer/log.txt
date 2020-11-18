@@ -12614,3 +12614,4465 @@ Content-Type: application/json
 [DEBUG] Sent response
 [DEBUG] Waiting for request
 [DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /calc-api/div/1/0 HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /calc-api/div/1/0
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /calc-api/div/1/2 HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /calc-api/div/1/2
+[DEBUG] HTTP/ 200 OK
+Content-Type: application/json
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /calc-api/div/7/2 HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /calc-api/div/7/2
+[DEBUG] HTTP/ 200 OK
+Content-Type: application/json
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /calc-api/asfdasdasd/7/2 HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /calc-api/asfdasdasd/7/2
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /calc-api/add/seven/two HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /calc-api/add/seven/two
+[DEBUG] HTTP/ 422 Semantic Error
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] 
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[DEBUG] HTTP/ 400 Bad Request
+Content-Type: text/plain
+
+
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] 
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[DEBUG] HTTP/ 400 Bad Request
+Content-Type: text/plain
+
+
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/index.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/index.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/runtime.js HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:668/angular/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/runtime.js
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/polyfills.js HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:668/angular/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/polyfills.js
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/styles.js HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:668/angular/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/styles.js
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/vendor.js HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:668/angular/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/vendor.js
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/main.js HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:668/angular/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/main.js
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/runtime.js.map HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: no-cache
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/runtime.js.map
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/polyfills.js.map HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: no-cache
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/polyfills.js.map
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/styles.js.map HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: no-cache
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/styles.js.map
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/vendor.js.map HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: no-cache
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/vendor.js.map
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/angular/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /angular/main.js.map HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: no-cache
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /angular/main.js.map
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET / HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET / HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 200 OK
+
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] 
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[DEBUG] HTTP/ 400 Bad Request
+Content-Type: text/plain
+
+
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] 
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[DEBUG] HTTP/ 400 Bad Request
+Content-Type: text/plain
+
+
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: WlyAi3vCN3WMlFVnR1NfMw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: FiUGyNG3eqmWO/zwh+G+LQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: NLYxCIOh7KZp9DgDvNzORQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: DQvj7fIK5IcvNugXd8DdMg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: MRStgaU3ZDI9f9MZChLJNw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: eP5LrkdkR2yz7w4ExGgfoA==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: gd9JD1wab3bC4sQGowpOPQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: QmbGNNbt0nopN6ptXrk2yw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: O+TCKDfrDYtNgAXaIoUuNA==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: 86LFWc8u/ijX9iI37P5Avw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: OagJ920/E7QdpKOAzAnsUw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: nTy8B/UzgHoJCmfh1OcekA==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: aFXamcDVgAHDiIZJrer/2g==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: +avgfsTqRftExdy2VVoIww==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/ 404 Not Found
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: +EDHoAF5ukDE1pxpGuIegA==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: hQCNi90dUsxSoky29lSTVKFh2sI=
+
+
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: JDjJHndYZl9LbfivBuBw8g==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: XDCW3crXVZgoVz0NVlADNbx7D1k=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: V6z2nnSLsGsp6YPnBkjI5A==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: OCSjxdjXZjzb/wVk8MHJhGeGnOM=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: t+6j5H48xpJ4kCiPIy+9ug==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: pU4ZNh2RGhez+uz8NTtjP+dpx+s=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: r1gVVdFZHCRILFPvA3Yeig==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: j6SLB9zbq8+FUPlFaiV2X99RP18=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: +P3bnaipc8p7Z6wuTlPstQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: 4uITbMpvlWNMcci50eBxSWsv6IA=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: b7tWvOYsXVN7OJ54M1Oyig==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: at4Txi0hdzwiJZzQTyA1S9nZAGo=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: rSjcnRqqF8MleYegffi7yg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: fvgBpRhMavvmFr2RfReJjnyUULc=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: EXRqzhNtDvenMjiCHlGNJg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: gBl83yKZ2d6DdlL1Q46rILFF18o=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: o7LMRo4HbHcr8wEbTUAJQQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: lX4CRMd2COhoBqRL9kQ7Q4qlvOg=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: T0vyLnnoH8CF9GWV9EFnhg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: pG0GXSOvA5CC9AF1vX38GodWPMQ=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: P8YpicjgQIkeLDP49cS70w==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: 4n+uQOUrHJb6u7XlcjN3/Q9+pmM=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: 9ZKTT8UV1wDV7tO5P0nyuA==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: oZ3Xt5zob7cKPpzCub9kOxH+ppY=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: xjMb1nJr4oub6jPf7PgsgQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: X/xiaKtjYqnzD/UAIXJeMLerA+Q=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: n/S4sj1397h8vuVjV2HRAg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: TKz6q95L9BVo6K0/260EgGBl2Wg=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: 6OLS8NPWeoVKtAYqBnKGIw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: OGCDvcEycM56buKHxSZQMJPyoWo=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: tHPE75aWurbL4G9vjiAa3g==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: 9dJxCeqJ68tT8+1MA1547T6v6+Q=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: SYU50xsr3g3cnqQeu3YqgQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: kAiOsOFzctZ7ltMwgm1vnu/IygE=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: REd+8++wlx/IBQ6snJXBTA==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: N0/f5ysQ7a484vygD6MKvoSQHC0=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: OhiDGIT7xzyF49lHEDFr9A==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: Y1il+VCkYrNli0Rlcpf0HrfYRYU=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] 
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[DEBUG] HTTP/1.1 400 Bad Request
+Content-Type: text/plain
+
+
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: eda6ZPRpKyd5L121cZ6UpQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: NYPI2oSvIeT/Uz/ZZhuEyCfZtYc=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] 
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[DEBUG] HTTP/1.1 400 Bad Request
+Content-Type: text/plain
+
+
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: 32FFeSzCrODL71MNXPLCIg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: HSfpTGmTq0W6IXNJ3XELJeKPJEw=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /test.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /test.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /style.css HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://localhost:668/test.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /style.css
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /script.js HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:668/test.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /script.js
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: IwyGlg0fzL+8eYs1tdALuw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: HGQ60vCqN2rn5kVs3o3akKm8pdw=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws HTTP/1.1
+Host: localhost:668
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:668
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+Sec-WebSocket-Key: ePIjeGcgSzaNUbfvYOhGUg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[INFO] Received Get request on path /ws
+[DEBUG] HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: XyXF4fXtg3p8BNs0HkJWbjK5Pnw=
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /test.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /test.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /style.css HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://localhost:668/test.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /style.css
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /script.js HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://localhost:668/test.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /script.js
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /ws.html HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /ws.html
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET /favicon.ico HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:668/ws.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: language=en; u_token=JWT%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWY0M2Q4NjAzZDlmN2Y1YThjNzQyNTI2IiwiaWF0IjoxNTk4MjgzNjQxfQ.O9dSGoRl3h08YozGhRfN-lpOHKiSxO8q0Ts_fIBrudU; _ga=GA1.1.2037389660.1601149779
+
+
+[INFO] Received Get request on path /favicon.ico
+[DEBUG] HTTP/1.1 200 OK
+Content-Type: text/plain
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected

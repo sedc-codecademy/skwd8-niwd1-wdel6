@@ -31,16 +31,16 @@ namespace Fibonacci
 
 
         // SLOOOOOWW
-        //public int Calculate(int index)
-        //{
-        //    Count += 1;
-        //    // Console.WriteLine($"Index is {index}");
-        //    // pure from here onward
-        //    if (index is 0 or 1)
-        //    {
-        //        return 1;
-        //    }
-        //    return Calculate(index - 1) + Calculate(index - 2);
-        //}
+        public int Calculate(int index)
+        {
+            Count += 1;
+            // Console.WriteLine($"Index is {index}");
+            // pure from here onward
+            if (index is 0 or 1)
+            {
+                return 1;
+            }
+            return Calculate(index - 1) + Calculate(index - 2);
+        }
     }
 }

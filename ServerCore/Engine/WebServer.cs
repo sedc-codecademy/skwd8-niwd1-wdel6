@@ -57,7 +57,7 @@ namespace ServerCore.Engine
                 var client = listener.AcceptTcpClient();
                 Logger.Debug("Client connected");
                 var stream = client.GetStream();
-                using var requester = new RequestGetter(stream, Logger);
+                using var requester = new RequestGetter(client, Logger);
                 using var responder = new ResponseSender(stream, Logger);
 
                 Request request;
@@ -80,6 +80,10 @@ namespace ServerCore.Engine
                 responder.SendResponse(response);
 
                 Logger.Debug("Sent response");
+                if (response.Status == StatusCode.SwitchingProtocols)
+                {
+                    continue;
+                }
                 client.Close();
             }
         }

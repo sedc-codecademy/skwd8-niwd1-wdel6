@@ -1,4 +1,6 @@
-﻿using ServerEntities;
+﻿using ServerCore.Responses;
+
+using ServerEntities;
 
 using System;
 using System.Collections.Generic;
@@ -14,6 +16,7 @@ namespace ServerCore.Engine
         {
             processors = new List<IProcessor>
             {
+                new WebSocketProcessor(),
                 new CalculationProcessor(),
                 new FileProcessor(),
                 new EchoProcessor()

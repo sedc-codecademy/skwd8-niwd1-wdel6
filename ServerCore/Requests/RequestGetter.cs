@@ -11,18 +11,21 @@ namespace ServerCore.Requests
 {
     public class RequestGetter: IDisposable
     {
-        public NetworkStream Stream { get; private set; }
+        public TcpClient Client { get; private set; }
         public ILogger Logger { get; private set; }
 
-        public RequestGetter(NetworkStream stream, ILogger logger)
+        public RequestGetter(TcpClient client, ILogger logger)
         {
-            Stream = stream;
+            Client = client;
             Logger = logger;
         }
         public Request GetRequest()
         {
-            byte[] bytes = new byte[8192];
-            var readCount = Stream.Read(bytes, 0, bytes.Length);
+            var stream = Client.GetStream();
+            while (!stream.DataAvailable);
+
+            byte[] bytes = new byte[Client.Available];
+            var readCount = stream.Read(bytes, 0, Client.Available);
             string requestData = Encoding.ASCII.GetString(bytes, 0, readCount);
             var parser = new RequestParser(Logger);
             var request = parser.Parse(requestData);

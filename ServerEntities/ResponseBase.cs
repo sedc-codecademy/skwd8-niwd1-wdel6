@@ -7,9 +7,9 @@ namespace ServerEntities
 
     public abstract class ResponseBase
     {
-        public HeaderCollection Headers { get; set; }
+        public HeaderCollection Headers { get; set; } = new HeaderCollection();
 
-        public string Version { get; set; }
+        public string Version { get; set; } = "1.1";
 
         private int status;
 
