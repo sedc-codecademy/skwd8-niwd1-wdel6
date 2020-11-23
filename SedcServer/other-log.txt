@@ -427,3 +427,21 @@
    at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
    at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
    at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67

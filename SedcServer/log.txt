@@ -12614,3 +12614,91 @@ Content-Type: application/json
 [DEBUG] Sent response
 [DEBUG] Waiting for request
 [DEBUG] Client connected
+[INFO] Started listening
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET / HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: ident=eyJraWQiOiJadjNUbzg1SmY5THNWMTNBZEZwR2xcL00zeDRFbFN1cXZmdCtQb0x2ZENzVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjZDE3NTk2Yy1kZDBhLTRiZDUtODE5Ny1lNTNhZGVhYjZjNTgiLCJjdXN0b206YWNjb3VudC1saXN0IjoiNjM4Niw2OTEsMjIxNyIsImN1c3RvbTpwb3NpdGlvbiI6IlRlc3QiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV9mRnp2Z0YxbGciLCJjb2duaXRvOnVzZXJuYW1lIjoiY2QxNzU5NmMtZGQwYS00YmQ1LTgxOTctZTUzYWRlYWI2YzU4IiwiYXVkIjoiN25yajI2bG50cm9qaTRoZXNyc3Q0MGhobDMiLCJldmVudF9pZCI6ImRkNjI4ZmJhLWUwOTYtNDc4OC1hZDI0LTY4N2EwNDU0ZGUzYiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjA2MTM3MjAxLCJuYW1lIjoiU3VwZXIgQWRtaW4gVGVzdDEiLCJjdXN0b206bGFzdC1sb2dpbiI6IjE2MDYxMjM2MDAiLCJleHAiOjE2MDYxNDA4MDEsImlhdCI6MTYwNjEzNzIwMSwiZW1haWwiOiJ1c2VyLmV4cGVydCtzb2xleHRlc3QwMUB2YXRib3guY29tIn0.KQpCy6EEx4skIbd5BAQxUKt2Ov8T9Lykz_D9I4L0sgvxEcj53RthVSXn1GcKnHUnJV3nY_GCjt16IBbfBbOWTjnuqWdZB8iF9oFqQ7egW_enFnV3YB7rOBK-p2ttCvkumqJ15bAbWWetwUOQCM57TpC1uUBqbNEjG19KCzyNgYJitnH12GGMBFOuwOVlkuLCI5hZXEOGBv2x-LohOHZSDootnd51L256CHxLZHcD9uRCGsLMpc2ZSqQYLRInLe0ttlZrbunVdJMhWrQKts100311Zlmj_hFC8gPAT72VLjXrnGecpEyaOmQ0ytAlh_nzZTYJbXAqF2TaZnFxz_mYzA; access=eyJraWQiOiJrK2g3dDQwZUFSQlhsV3QrZUFBc3hwTDBcL1pQQmZTUE5TWVpxSytnVEx2az0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjZDE3NTk2Yy1kZDBhLTRiZDUtODE5Ny1lNTNhZGVhYjZjNTgiLCJldmVudF9pZCI6ImRkNjI4ZmJhLWUwOTYtNDc4OC1hZDI0LTY4N2EwNDU0ZGUzYiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2MDYxMzcyMDEsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVwvZXUtd2VzdC0xX2ZGenZnRjFsZyIsImV4cCI6MTYwNjE3MzIwMSwiaWF0IjoxNjA2MTM3MjAxLCJqdGkiOiIzNDY0Y2Y5NC0xYzdiLTRiMzMtOWE4Ni0zNjM3MmRiYzAzY2MiLCJjbGllbnRfaWQiOiI3bnJqMjZsbnRyb2ppNGhlc3JzdDQwaGhsMyIsInVzZXJuYW1lIjoiY2QxNzU5NmMtZGQwYS00YmQ1LTgxOTctZTUzYWRlYWI2YzU4In0.jg6_Na7GGC7GuZlYxBipX-nBds1m21Pmyowz1hbt6GkxNiOAei1nwymBuE0_08o1_gwl-f7PNRU-dkJBiSpH811DajpGtY4FnVwTWuYUzWyb59jUeSqV8EdFN_maHmH8E_swypMrxSCMfh1GR6dsAx0AVd6bBamUuMRoHHc8C4F2PQ1bUbTYdyInj1Ot5cwpeV3PxlneZMywHaIUkGB3xlW0PDJPWSHqry2l9utukGbSPh-37TjriUDimhl_X7I3xnFQ4tVC71g2XaWIQSu-jFJVZBNkg67tgW8pk8kbfAUoHHMPnEQQF2N8-mBO6rg01JMdYIY51Dm-Dk9kh1fPmg; ng.user.data=eyJpZCI6InVzZXIuZXhwZXJ0K3NvbGV4dGVzdDAxQHZhdGJveC5jb20iLCJlbWFpbCI6InVzZXIuZXhwZXJ0K3NvbGV4dGVzdDAxQHZhdGJveC5jb20ifQ==
+
+
+[INFO] Received Get request on path /
+[DEBUG] HTTP/1.1 200 OK
+
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] 
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[DEBUG] HTTP/ 400 Bad Request
+Content-Type: text/plain
+
+
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] GET / HTTP/1.1
+Host: localhost:668
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,mk;q=0.8,sr;q=0.7,hr;q=0.6,bs;q=0.5,bg;q=0.4
+Cookie: ident=eyJraWQiOiJadjNUbzg1SmY5THNWMTNBZEZwR2xcL00zeDRFbFN1cXZmdCtQb0x2ZENzVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjZDE3NTk2Yy1kZDBhLTRiZDUtODE5Ny1lNTNhZGVhYjZjNTgiLCJjdXN0b206YWNjb3VudC1saXN0IjoiNjM4Niw2OTEsMjIxNyIsImN1c3RvbTpwb3NpdGlvbiI6IlRlc3QiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV9mRnp2Z0YxbGciLCJjb2duaXRvOnVzZXJuYW1lIjoiY2QxNzU5NmMtZGQwYS00YmQ1LTgxOTctZTUzYWRlYWI2YzU4IiwiYXVkIjoiN25yajI2bG50cm9qaTRoZXNyc3Q0MGhobDMiLCJldmVudF9pZCI6ImRkNjI4ZmJhLWUwOTYtNDc4OC1hZDI0LTY4N2EwNDU0ZGUzYiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjA2MTM3MjAxLCJuYW1lIjoiU3VwZXIgQWRtaW4gVGVzdDEiLCJjdXN0b206bGFzdC1sb2dpbiI6IjE2MDYxMjM2MDAiLCJleHAiOjE2MDYxNDA4MDEsImlhdCI6MTYwNjEzNzIwMSwiZW1haWwiOiJ1c2VyLmV4cGVydCtzb2xleHRlc3QwMUB2YXRib3guY29tIn0.KQpCy6EEx4skIbd5BAQxUKt2Ov8T9Lykz_D9I4L0sgvxEcj53RthVSXn1GcKnHUnJV3nY_GCjt16IBbfBbOWTjnuqWdZB8iF9oFqQ7egW_enFnV3YB7rOBK-p2ttCvkumqJ15bAbWWetwUOQCM57TpC1uUBqbNEjG19KCzyNgYJitnH12GGMBFOuwOVlkuLCI5hZXEOGBv2x-LohOHZSDootnd51L256CHxLZHcD9uRCGsLMpc2ZSqQYLRInLe0ttlZrbunVdJMhWrQKts100311Zlmj_hFC8gPAT72VLjXrnGecpEyaOmQ0ytAlh_nzZTYJbXAqF2TaZnFxz_mYzA; access=eyJraWQiOiJrK2g3dDQwZUFSQlhsV3QrZUFBc3hwTDBcL1pQQmZTUE5TWVpxSytnVEx2az0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjZDE3NTk2Yy1kZDBhLTRiZDUtODE5Ny1lNTNhZGVhYjZjNTgiLCJldmVudF9pZCI6ImRkNjI4ZmJhLWUwOTYtNDc4OC1hZDI0LTY4N2EwNDU0ZGUzYiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2MDYxMzcyMDEsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVwvZXUtd2VzdC0xX2ZGenZnRjFsZyIsImV4cCI6MTYwNjE3MzIwMSwiaWF0IjoxNjA2MTM3MjAxLCJqdGkiOiIzNDY0Y2Y5NC0xYzdiLTRiMzMtOWE4Ni0zNjM3MmRiYzAzY2MiLCJjbGllbnRfaWQiOiI3bnJqMjZsbnRyb2ppNGhlc3JzdDQwaGhsMyIsInVzZXJuYW1lIjoiY2QxNzU5NmMtZGQwYS00YmQ1LTgxOTctZTUzYWRlYWI2YzU4In0.jg6_Na7GGC7GuZlYxBipX-nBds1m21Pmyowz1hbt6GkxNiOAei1nwymBuE0_08o1_gwl-f7PNRU-dkJBiSpH811DajpGtY4FnVwTWuYUzWyb59jUeSqV8EdFN_maHmH8E_swypMrxSCMfh1GR6dsAx0AVd6bBamUuMRoHHc8C4F2PQ1bUbTYdyInj1Ot5cwpeV3PxlneZMywHaIUkGB3xlW0PDJPWSHqry2l9utukGbSPh-37TjriUDimhl_X7I3xnFQ4tVC71g2XaWIQSu-jFJVZBNkg67tgW8pk8kbfAUoHHMPnEQQF2N8-mBO6rg01JMdYIY51Dm-Dk9kh1fPmg; ng.user.data=eyJpZCI6InVzZXIuZXhwZXJ0K3NvbGV4dGVzdDAxQHZhdGJveC5jb20iLCJlbWFpbCI6InVzZXIuZXhwZXJ0K3NvbGV4dGVzdDAxQHZhdGJveC5jb20ifQ==
+
+
+[INFO] Received Get request on path /
+[DEBUG] HTTP/1.1 200 OK
+
+
+
+[DEBUG] Sent response
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] 
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[DEBUG] HTTP/ 400 Bad Request
+Content-Type: text/plain
+
+
+[DEBUG] Waiting for request
+[DEBUG] Client connected
+[DEBUG] 
+[ERROR] Unable to get the request
+[ERROR]    uri
+   at ServerCore.Requests.UriParser.Parse(String uri) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\UriParser.cs:line 23
+   at ServerCore.Requests.RequestParser.Parse(String requestData) in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestParser.cs:line 33
+   at ServerCore.Requests.RequestGetter.GetRequest() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Requests\RequestGetter.cs:line 28
+   at ServerCore.Engine.WebServer.Run() in C:\Source\SEDC\skwd8-niwd1-wdel6\ServerCore\Engine\WebServer.cs:line 67
+[DEBUG] HTTP/ 400 Bad Request
+Content-Type: text/plain
+
+
+[DEBUG] Waiting for request
